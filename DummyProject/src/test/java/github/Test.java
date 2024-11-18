@@ -1,7 +1,15 @@
 package github;
 
+import org.testng.annotations.BeforeMethod;
 
-@org.testng.annotations.Test
+/**
+ * @author Sanjeev
+ */
 public class Test {
   //Modified in GitHub
+	
+	@BeforeMethod
+	public void testMethod() {
+		
+	}
 }
